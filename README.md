@@ -21,7 +21,7 @@ This project was a simple warmup to "dust out the cobwebs" after a break from le
 
 ### Screenshot
 
-![](.images/screenshot.png)
+![A screenshot of the QR Code Component](./images/screenshot.png)
 
 
 ### Links
@@ -48,7 +48,7 @@ Hopefully, I'll be able to integrate something like this with a QR code generato
 
 ## Author
 
-- Website - [Brendan K. Schatzki](https://github.com/BKSchatzki)
+- GitHub - [Brendan K. Schatzki](https://github.com/BKSchatzki)
 - Frontend Mentor - [@BKSchatzki](https://www.frontendmentor.io/profile/BKSchatzki)
 - Twitter - [@BKSchatzki](https://www.twitter.com/bkschatzki)
 
