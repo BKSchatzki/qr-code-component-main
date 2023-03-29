@@ -3,58 +3,52 @@
 }
 
 body {
+  align-items: center;
   background: hsl(212, 45%, 89%);
   box-sizing: border-box;
-}
-
-.container {
   display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
 }
 
 .qr-component {
+  align-items: center;
+  border-radius: 5%;
   background: hsl(0, 0%, 100%);
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
-  justify-content: center;
-  /* height: 600px; */
-  width: 325px;
-  text-align: center;
-  border-radius: 1rem;
   font-family: 'Outfit', sans-serif;
+  justify-content: center;
+  max-width: 325px;
+  text-align: center;
 }
 
 img {
-  width: 295px;
-  height: auto;
   border-radius: 10%;
-  padding: 15px;
+  height: auto;
+  max-width: 90%;
+  padding: 1.5rem;
 }
 
-h2 {
+h1 {
   color: hsl(218, 44%, 22%);
-  margin: 1.1rem 2rem;
   font-size: 2.2rem;
   font-weight: bold;
+  margin: 1.1rem 2rem;
 
 }
 
 p {
   color: hsl(220, 15%, 55%);
-  margin: 0 3rem 4rem 3rem;
   font-size: 1.5rem;
+  margin: 0 3rem 4rem 3rem;
 }
 
 .attribution {
-  font-family: 'Outfit', sans-serif;
-  font-size: 11px; text-align: center;
-  padding-top: 1rem;
   color: hsl(218, 44%, 22%);
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem; text-align: center;
+  padding-top: 1rem;
 }
 
 .attribution a {
