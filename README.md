@@ -42,6 +42,8 @@ First, some housekeeping. The downloadable package didn't contain an external st
 
 A lot of styling I do is redundant, and I still struggle slightly with keeping track of parent and container elements. I have a habit of just wrapping something inside of a div to style it together, and can end up with too many layers. As simple as this was, I still applied some unecessary styling to a container initially. I also worked a little with inherited properties, and refreshed my memory of how that works and how to keep code relatively dry.
 
+I also learned that ARIA markup (role="...") doesn't need to be declared when the tag itself is a semantic landmark tag. And that landmark elements should not be contained inside other elements.
+
 ### Continued development
 
 Hopefully, I'll be able to integrate something like this with a QR code generator in the future. I also want to be able to drop this component into other pages.
